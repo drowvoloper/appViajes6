@@ -1,0 +1,21 @@
+{
+  "name": "appViajes6",
+  "authors": [
+    "Tay <heytay.contact@gmail.com>"
+  ],
+  "description": "proyecto de web de viajes (grupo 6)",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "jquery": "^3.3.1"
+  }
+}
