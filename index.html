@@ -28,16 +28,18 @@
 
             <!--/////Texto/////-->
                 <h2>Quiénes somos</h2>
-                <div class="rayita"></div>
+                <div class="raya"></div>
                 <p>GeeksHubs Travels es una agencia de viajes online creada en 2009 por un equipo de viajeros entusiastas que deciden hacer de su pasión por conocer el mundo un modo de vida. Desde nuestros inicios hemos diseñado más de 500 viajes organizados a diferentes destinos de Europa, Norteamérica y Asia. Nuestro objetivo ahora es ir ampliando horizontes poco a poco.</p>
             <!--/////FIN Texto/////-->
 
-            <!--/////Botón/link a "Descubrir"/////-->
-                <a href="#">
-                    <div class="descubrir col-md-6 offset-md-3">
+            <!--/////Botón/link a "Descubrir" TODO: mirar otra forma de centrar el botón/////-->
+                <div class="row"><!--para centrar el botón-->
+                    <a href="#" class="col-md-6 offset-3">
+                    <div class="descubrir">
                     <h2>Descubrir</h2>
                     </div>
-                </a>
+                    </a>
+                </div>
             <!--/////FIN Botón/link a "Descubrir"/////-->
 
             </section>
@@ -48,6 +50,36 @@
 <!--/////FIN Sección "Quiénes somos"/////-->
 
 <!--/////Sección "Formulario de contacto"/////-->
+    <div class="container-fluid formulario-de-contacto">
+        <div class="mapa"></div>
+        <div class="col-md-5 offset-md-6 contacto">
+            <p>E: enquiry@artiotravel.com<br>
+            P: 0264 123 4567
+            <br><br>
+            Give us a call or drop by anytime, we endeavour to answer all enquiries within 24 hours on business days.
+            <br><br>
+            We are open from 8.30AM - 4.00 PM week days.</p>
+            <br>
+            <div class="rayita"></div>
+        <!--Formulario FIXME:margins-->
+            <div class="form-group row">
+            <!--Nombre--> 
+                <input type="text" class="form-control formulario-left" placeholder="Name*">
+            <!--Email-->
+                <input type="email" class="form-control formulario-right" aria-describedby="emailHelp" placeholder="Email*">
+            
+            <!--Teléfono-->
+                <input type="text" class="form-control formulario-left" placeholder="Phone">
+
+            <!--País-->
+                <input type="text" class="form-control formulario-right" placeholder="Country">
+
+            <!--Textarea-->
+                <textarea class="form-control rounded-0 formulario-center" rows="5" placeholder="Message"></textarea>
+            </div>
+        </div>
+    </div>
+
 
     
     

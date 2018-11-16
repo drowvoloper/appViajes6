@@ -8,6 +8,7 @@ a:hover {
     text-decoration:none;
 }
 
+
 /*////Sección "Quiénes somos"////*/
 /*TODO: cambiar colores una vez definidos TODO: :hover .descubrir*/
 
@@ -34,7 +35,7 @@ a:hover {
 }
 
 /*linea bajo el título del texto*/
-.rayita {
+.raya {
     margin-left:-10px;
     margin-top:-5px;
     border:2px solid darkblue;
@@ -54,4 +55,30 @@ a:hover {
     background-color:darkblue;
     color:white;
     text-align: center;
+}
+
+/*////Sección "Formulario de contacto"////*/
+/*div padre*/
+.formulario-de-contacto {
+    margin-top:55px;
+}
+
+/*pequeña línea bajo el texto*/
+.rayita {
+    width:10px;
+    border:1px solid darkblue;
+}
+
+/*estilo para colocar los input y el textarea*/
+.formulario-left,.formulario-right,.formulario-center {
+    width:45%;
+    margin-top:15px;
+}
+
+.formulario-right {
+    margin-left:5%;
+}
+
+.formulario-center {
+    width:95%;
 }
