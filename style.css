@@ -1,3 +1,17 @@
+/*estilos para las etiquetas*/
+h2 {
+    text-transform: uppercase;
+    font-size:20px;
+}
+
+a:hover {
+    text-decoration:none;
+}
+
+/*////Sección "Quiénes somos"////*/
+/*TODO: cambiar colores una vez definidos TODO: :hover .descubrir*/
+
+/*fondo y div padre*/
 .imagen-fondo {
     margin-top:10px;
     width:100%;
@@ -8,27 +22,18 @@
     background-color: #cccccc;
 }
 
+/*recuadro con texto*/
 .quienes-somos {
     border: 1px solid blue;
     padding:20px;
     background-color: white;
     padding-left:30px;
     padding-right:40px;
-    margin-top:50px;
+    margin-top:60px;
     margin-bottom:40px;
 }
 
-.quienes-somos>p{
-    text-align:justify;
-    text-justify: inter-word;
-    margin-top:30px;
-}
-
-h2 {
-    text-transform: uppercase;
-    font-size:20px;
-}
-
+/*linea bajo el título del texto*/
 .rayita {
     margin-left:-10px;
     margin-top:-5px;
@@ -36,17 +41,17 @@ h2 {
     width:165px;
 }
 
-.quienes {
-    
+/*estilo del texto*/
+.quienes-somos>p{
+    text-align:justify;
+    text-justify: inter-word;
+    margin-top:30px;
 }
 
+/*botón a sección "descubrir"*/
 .descubrir {
     padding:10px;
     background-color:darkblue;
     color:white;
     text-align: center;
-}
-
-a:hover {
-    text-decoration:none;
 }
