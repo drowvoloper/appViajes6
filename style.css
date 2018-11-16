@@ -4,6 +4,10 @@ h2 {
     font-size:20px;
 }
 
+a {
+    text-decoration: none;
+}
+
 a:hover {
     text-decoration:none;
 }
@@ -51,7 +55,8 @@ a:hover {
 
 /*botón a sección "descubrir"*/
 .descubrir {
-    padding:10px;
+    padding:5px;
+    padding-top:10px;
     background-color:darkblue;
     color:white;
     text-align: center;
@@ -73,6 +78,7 @@ a:hover {
 .formulario-left,.formulario-right,.formulario-center {
     width:45%;
     margin-top:15px;
+    margin-left:12px;
 }
 
 .formulario-right {
@@ -82,3 +88,31 @@ a:hover {
 .formulario-center {
     width:95%;
 }
+/*FIN estilo para colocar los input y el textarea*/
+
+/*Comentario*/
+#please {
+    text-transform: uppercase;
+    font-size: 10px;
+    margin-top:-10px;
+}
+
+/*Botón "Enviar mensaje" TODO:cambiar colores*/
+.boton-mensaje {
+    margin-top:25px;
+    font-size:18px;
+    height:50px;
+    background-color:lightslategray;
+    color:white;
+    padding:5px;
+    padding-top:15px;
+    text-align: center;
+}
+
+.boton-mensaje>a {
+    color:white;
+}
+/*////FIN Sección "Formulario de contacto"////*/
+
+
+
