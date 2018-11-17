@@ -1,17 +1,10 @@
 /*estilos para las etiquetas*/
-h2 {
-    text-transform: uppercase;
-    font-size:20px;
-}
+h2 { font-size:20px;}
 
-a {
-    text-decoration: none;
-}
+a,a:hover {text-decoration: none;}
 
-a:hover {
-    text-decoration:none;
-}
-
+/*para títulos en mayúscula:*/
+.uppercase {text-transform: uppercase;}
 
 /*////Sección "Quiénes somos"////*/
 /*TODO: cambiar colores una vez definidos TODO: :hover .descubrir*/
@@ -20,14 +13,13 @@ a:hover {
 .imagen-fondo {
     margin-top:10px;
     width:100%;
-    /*background-color:lightblue;*/
     background-image: url('./img/quienes-somos.jpg');
     background-size:cover;
     background-position:center;
     background-color: #cccccc;
 }
 
-/*recuadro con texto*/
+/*recuadro con texto TODO:cambiar color*/
 .quienes-somos {
     border: 1px solid blue;
     padding:20px;
@@ -38,7 +30,7 @@ a:hover {
     margin-bottom:40px;
 }
 
-/*linea bajo el título del texto*/
+/*linea bajo el título del texto TODO:cambiar color*/
 .raya {
     margin-left:-10px;
     margin-top:-5px;
@@ -53,7 +45,7 @@ a:hover {
     margin-top:30px;
 }
 
-/*botón a sección "descubrir"*/
+/*botón a sección "descubrir" TODO:cambiar color*/
 .descubrir {
     padding:5px;
     padding-top:10px;
@@ -64,11 +56,9 @@ a:hover {
 
 /*////Sección "Formulario de contacto"////*/
 /*div padre*/
-.formulario-de-contacto {
-    margin-top:55px;
-}
+.formulario-de-contacto { margin-top:55px;}
 
-/*pequeña línea bajo el texto*/
+/*pequeña línea bajo el texto TODO:cambiar color*/
 .rayita {
     width:10px;
     border:1px solid darkblue;
@@ -81,18 +71,14 @@ a:hover {
     margin-left:12px;
 }
 
-.formulario-right {
-    margin-left:5%;
-}
+.formulario-right { margin-left:5%;}
 
-.formulario-center {
-    width:95%;
-}
+.formulario-center {width:95%;}
 /*FIN estilo para colocar los input y el textarea*/
 
 /*Comentario*/
-#please {
-    text-transform: uppercase;
+.please {
+    /*text-transform: uppercase;*/
     font-size: 10px;
     margin-top:-10px;
 }
@@ -107,12 +93,63 @@ a:hover {
     padding:5px;
     padding-top:15px;
     text-align: center;
+    font-style: italic;
 }
 
-.boton-mensaje>a {
-    color:white;
-}
+.boton-mensaje>a { color:white;}
 /*////FIN Sección "Formulario de contacto"////*/
 
+/*/////Super-mega-peaso-footer-de-la-muerte/////*/
+/*div padre TODO:cambiar colores*/
+footer {
+    margin-top:55px;
+    background-color:darkblue;
+    color:white;
+}
 
+/*Nada más que añadir*/
+.footer-de-la-muerte {
+    padding:60px;
+    padding-bottom: 0px;
+}
+/*Columna "Información"*/
+.info { padding-left:55px;}
 
+/*Lista de links "Información"*/
+.links-info{ margin-left:-40px;}
+
+.links-info>li{ list-style: none;}
+
+li>a,li>a:hover {
+    text-decoration: none;
+    color:white;
+}
+/*FIN Lista de links "Información"*/
+
+/*Botón "Suscribete" TODO:cambiar colores*/
+.boton-suscribete {
+    margin-top:25px;
+    font-size:18px;
+    height:50px;
+    background-color:lightslategray;
+    color:white;
+    padding:5px;
+    padding-top:15px;
+    text-align: center;
+    font-style: italic;
+}
+
+.boton-suscribete>a { color:white;}
+/*FIN Botón "Suscribete"*/
+
+/*footer del footer TODO:cambiar color*/
+.footers-footer{
+    margin-top:25px;
+    padding:30px;
+    border-top:1px solid black;
+}
+
+.footers-footer>h6 { text-align: center;}
+/*FIN footer del footer*/
+
+/*/////FIN Super-mega-peaso-footer-de-la-muerte/////*/
