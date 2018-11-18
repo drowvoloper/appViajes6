@@ -1,0 +1,160 @@
+/*estilos para las etiquetas*/
+h2 { font-size:20px;}
+
+a,a:hover {text-decoration: none;}
+
+/*para títulos en mayúscula:*/
+.uppercase {text-transform: uppercase;}
+
+/*////Sección "Quiénes somos"////*/
+/*TODO: cambiar colores una vez definidos TODO: :hover .descubrir*/
+/*fondo y div padre*/
+.imagen-fondo {
+    margin-top:10px;
+    width:100%;
+    background-image: url('../img/quienes-somos.jpg');
+    background-size:cover;
+    background-position:center;
+    background-color: #cccccc;
+}
+
+/*recuadro con texto TODO:*/
+.quienes-somos {
+    border: 1px solid blue;
+    padding:20px;
+    background-color: white;
+    padding-left:30px;
+    padding-right:40px;
+    margin-top:60px;
+    margin-bottom:40px;
+}
+
+/*linea bajo el título del texto TODO:*/
+.raya {
+    margin-left:-10px;
+    margin-top:-5px;
+    border:2px solid darkblue;
+    width:165px;
+}
+
+/*estilo del texto*/
+.quienes-somos>p{
+    text-align:justify;
+    text-justify: inter-word;
+    margin-top:30px;
+}
+
+/*botón a sección "descubrir" TODO:*/
+.descubrir {
+    padding:5px;
+    padding-top:10px;
+    background-color:darkblue;
+    color:white;
+    text-align: center;
+}
+
+/*////Sección "Formulario de contacto"////*/
+/*div padre*/
+.formulario-de-contacto { margin-top:55px;}
+
+/*mapa*/
+#mapa {
+    width:100%;
+    height:500px;
+    margin-top:25px;
+}
+
+/*pequeña línea bajo el texto TODO:*/
+.rayita {
+    width:10px;
+    border:1px solid darkblue;
+}
+
+/*estilo para colocar los input y el textarea*/
+.formulario-left,.formulario-right,.formulario-center {
+    width:45%;
+    margin-top:15px;
+    margin-left:12px;
+}
+
+.formulario-right { margin-left:5%;}
+
+.formulario-center {width:95%;}
+/*FIN estilo para colocar los input y el textarea*/
+
+/*Comentario*/
+.please {
+    /*text-transform: uppercase;*/
+    font-size: 10px;
+    margin-top:-10px;
+}
+
+/*Botón "Enviar mensaje" TODO:*/
+.boton-mensaje {
+    margin-top:25px;
+    font-size:18px;
+    height:50px;
+    background-color:lightslategray;
+    color:white;
+    padding:5px;
+    padding-top:15px;
+    text-align: center;
+    font-style: italic;
+}
+
+.boton-mensaje>a { color:white;}
+/*////FIN Sección "Formulario de contacto"////*/
+
+/*/////Super-mega-peaso-footer-de-la-muerte/////*/
+/*div padre TODO:*/
+footer {
+    margin-top:55px;
+    background-color:darkblue;
+    color:white;
+}
+
+/*Nada más que añadir*/
+.footer-de-la-muerte {
+    padding:60px;
+    padding-bottom: 0px;
+}
+/*Columna "Información"*/
+.info { padding-left:55px;}
+
+/*Lista de links "Información"*/
+.links-info{ margin-left:-40px;}
+
+.links-info>li{ list-style: none;}
+
+li>a,li>a:hover {
+    text-decoration: none;
+    color:white;
+}
+/*FIN Lista de links "Información"*/
+
+/*Botón "Suscribete" TODO:*/
+.boton-suscribete {
+    margin-top:25px;
+    font-size:18px;
+    height:50px;
+    background-color:lightslategray;
+    color:white;
+    padding:5px;
+    padding-top:15px;
+    text-align: center;
+}
+
+.boton-suscribete>a { color:white;}
+/*FIN Botón "Suscribete"*/
+
+/*footer del footer TODO:*/
+.footers-footer{
+    margin-top:25px;
+    padding:30px;
+    border-top:1px solid black;
+}
+
+.footers-footer>h6 { text-align: center;}
+/*FIN footer del footer*/
+
+/*/////FIN Super-mega-peaso-footer-de-la-muerte/////*/
