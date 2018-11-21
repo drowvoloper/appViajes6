@@ -1,16 +1,155 @@
-/*estilos para las etiquetas*/
+    /*estilos para las etiquetas*/
 h2 { font-size:20px;}
 
-a,a:hover {text-decoration: none;}
+a,a:hover { text-decoration: none;}
 
-/*para títulos en mayúscula:*/
+    /*letra en blanco*/
+.white { color:white;}
+
+    /*letra en negrita*/
+.bold { font-weight: bold;}
+
+    /*letra en cursiva*/
+.italic { font-style: italic;}
+
+    /*para títulos en mayúscula:*/
 .uppercase {text-transform: uppercase;}
+
+/*/////Sección CABECERA y Navbar/////*/
+
+    /*Imagen de la cabecera*/
+.imagen-cabecera{
+    height:600px;
+    background: url('../img/header.jpg')  center center no-repeat;
+    background-size: cover;
+}
+    /*FIN Imagen de la cabecera*/
+
+    /*Logo*/
+.logo{ text-align:center;}
+
+.iconoweb {
+    width: 150px;
+    height: auto;
+    margin-top:10px;
+}
+    /*FIN Logo*/
+
+    /*Menú cabecera*/
+.menu-cabecera {
+    text-align:left;
+    margin-top:20px;
+}
+
+.menu-cabecera>a:hover{ 
+    color:white;
+    font-style:normal;
+}
+    /*FIN Menú cabecera*/
+
+    /*Redes sociales*/
+.redes { 
+    text-align:right;
+    margin-top:20px;
+}
+
+.rrss {
+    width:40px;
+    padding:3px;
+}
+    /*FIN Redes sociales*/
+
+    /*Viaja y descubre*/
+.viaja { padding-left:30px;}
+
+h1>span{ font-size:50px;}
+    /*FIN Viaja y descubre*/
+
+    /*Botón descubre*/
+.boton-destinos {
+    height:50px;
+    background-color:lightslategray;
+    color:white;
+    border-radius:0px;
+}
+    /*FIN Botón descubre*/
+/*/////FIN Sección CABECERA y Navbar/////*/
+
+/*/////Sección Ofertas de Viajes/////*/
+    /*div padre*/
+.ofertas-viajes {
+	padding-top:50px;
+    margin-left:auto;
+    margin-right:auto;
+    width:80%;
+}
+    /*FIN div padre*/
+
+    /*Imágenes de los lugares*/
+.oferta {
+	width: 275px;
+	height:225px;
+	transition:all .2s ease-in-out;
+}
+
+.oferta:hover { transform:scale(1.05);}
+
+#pekin,#baires,#mexico,#madrid,#ny,#tokyo {
+    background-size:100% 100%;
+	background-repeat:no-repeat;
+}
+
+#pekin { background-image:url("https://raw.githubusercontent.com/GeeksHubsAcademy/Actividad_1/master/img/beijing.JPG");}
+#baires { background-image:url("https://raw.githubusercontent.com/GeeksHubsAcademy/Actividad_1/master/img/buenos_aires.JPG");}
+#mexico { background-image:url("https://raw.githubusercontent.com/GeeksHubsAcademy/Actividad_1/master/img/ciudad_mexico.JPG");}
+#madrid { background-image:url("https://raw.githubusercontent.com/GeeksHubsAcademy/Actividad_1/master/img/madrid.JPG");}
+#ny { background-image:url("https://raw.githubusercontent.com/GeeksHubsAcademy/Actividad_1/master/img/new_york.JPG");}
+#tokyo { background-image:url("https://raw.githubusercontent.com/GeeksHubsAcademy/Actividad_1/master/img/tokyo.JPG");}
+/*FIN imágenes de los lugares*/
+
+/*Save --$ pay only*/
+.description {
+	height:50px;
+	background-color:black;
+	color:#fff;
+}
+
+.description>p{ 
+    padding-top:10px;
+    text-align:center;
+}
+/*FIN Save --$ pay only*/
+
+/*Precio ofertas*/
+.price {
+	height:75px;
+	background-color:yellow;
+	font-size:30px;
+	font-weight:bold;
+}
+
+.price>p {
+	color:black;
+    text-decoration: none;
+    padding-top:15px;
+	text-align:center;
+}
+/*FIN Precio ofertas*/
+
+/*estilo para los nombres de los lugares*/
+.lugar {
+    padding-top:20px;
+    width:275px;
+    text-align:center;
+}
+/*FIN estilo para los nombres de los lugares*/
+/*/////FIN Sección Ofertas de Viajes/////*/
 
 /*////Sección "Quiénes somos"////*/
 /*TODO: cambiar colores una vez definidos TODO: :hover .descubrir*/
-/*fondo y div padre*/
+    /*fondo y div padre*/
 .imagen-fondo {
-    margin-top:10px;
+    margin-top:30px;
     width:100%;
     background-image: url('../img/quienes-somos.jpg');
     background-size:cover;
@@ -18,7 +157,7 @@ a,a:hover {text-decoration: none;}
     background-color: #cccccc;
 }
 
-/*recuadro con texto TODO:*/
+    /*recuadro con texto TODO:*/
 .quienes-somos {
     border: 1px solid blue;
     padding:20px;
@@ -29,7 +168,7 @@ a,a:hover {text-decoration: none;}
     margin-bottom:40px;
 }
 
-/*linea bajo el título del texto TODO:*/
+    /*linea bajo el título del texto TODO:*/
 .raya {
     margin-left:-10px;
     margin-top:-5px;
@@ -37,40 +176,41 @@ a,a:hover {text-decoration: none;}
     width:165px;
 }
 
-/*estilo del texto*/
+    /*estilo del texto*/
 .quienes-somos>p{
     text-align:justify;
     text-justify: inter-word;
     margin-top:30px;
 }
 
-/*botón a sección "descubrir" TODO:*/
+    /*botón a sección "descubrir" TODO:*/
 .descubrir {
     padding:5px;
     padding-top:10px;
     background-color:darkblue;
     color:white;
     text-align: center;
+    border-radius:0px;
 }
 
 /*////Sección "Formulario de contacto"////*/
-/*div padre*/
+    /*div padre*/
 .formulario-de-contacto { margin-top:55px;}
 
-/*mapa*/
+    /*mapa*/
 #mapa {
     width:100%;
     height:500px;
     margin-top:25px;
 }
 
-/*pequeña línea bajo el texto TODO:*/
+    /*pequeña línea bajo el texto TODO:*/
 .rayita {
     width:10px;
     border:1px solid darkblue;
 }
 
-/*estilo para colocar los input y el textarea*/
+    /*estilo para colocar los input y el textarea*/
 .formulario-left,.formulario-right,.formulario-center {
     width:45%;
     margin-top:15px;
@@ -80,16 +220,15 @@ a,a:hover {text-decoration: none;}
 .formulario-right { margin-left:5%;}
 
 .formulario-center {width:95%;}
-/*FIN estilo para colocar los input y el textarea*/
+    /*FIN estilo para colocar los input y el textarea*/
 
-/*Comentario*/
+    /*Comentario*/
 .please {
-    /*text-transform: uppercase;*/
     font-size: 10px;
     margin-top:-10px;
 }
 
-/*Botón "Enviar mensaje" TODO:*/
+    /*Botón "Enviar mensaje" TODO:*/
 .boton-mensaje {
     margin-top:25px;
     font-size:18px;
@@ -106,22 +245,22 @@ a,a:hover {text-decoration: none;}
 /*////FIN Sección "Formulario de contacto"////*/
 
 /*/////Super-mega-peaso-footer-de-la-muerte/////*/
-/*div padre TODO:*/
+    /*div padre TODO:*/
 footer {
     margin-top:55px;
     background-color:darkblue;
     color:white;
 }
 
-/*Nada más que añadir*/
+    /*Nada más que añadir*/
 .footer-de-la-muerte {
     padding:60px;
     padding-bottom: 0px;
 }
-/*Columna "Información"*/
+    /*Columna "Información"*/
 .info { padding-left:55px;}
 
-/*Lista de links "Información"*/
+    /*Lista de links "Información"*/
 .links-info{ margin-left:-40px;}
 
 .links-info>li{ list-style: none;}
@@ -130,24 +269,24 @@ li>a,li>a:hover {
     text-decoration: none;
     color:white;
 }
-/*FIN Lista de links "Información"*/
+    /*FIN Lista de links "Información"*/
 
-/*Botón "Suscribete" TODO:*/
+    /*Botón "Suscribete" TODO:*/
 .boton-suscribete {
+    width:100%;
     margin-top:25px;
     font-size:18px;
     height:50px;
     background-color:lightslategray;
-    color:white;
     padding:5px;
     padding-top:15px;
     text-align: center;
 }
 
 .boton-suscribete>a { color:white;}
-/*FIN Botón "Suscribete"*/
+    /*FIN Botón "Suscribete"*/
 
-/*footer del footer TODO:*/
+    /*footer del footer TODO:*/
 .footers-footer{
     margin-top:25px;
     padding:30px;
@@ -155,6 +294,6 @@ li>a,li>a:hover {
 }
 
 .footers-footer>h6 { text-align: center;}
-/*FIN footer del footer*/
+    /*FIN footer del footer*/
 
 /*/////FIN Super-mega-peaso-footer-de-la-muerte/////*/
