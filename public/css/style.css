@@ -299,14 +299,14 @@ li>a,li>a:hover {
     margin-top:25px;
     font-size:18px;
     height:50px;
-    background-color:lightslategray;
+    background-color:yellow;
     padding:5px;
     padding-top:15px;
     text-align: center;
 }
 
 .boton-suscribete>a { color:#151837;}
-.boton-suscribete>a:hover { color:white;}
+.boton-suscribete>a:hover { color:#151837;}
     /*FIN Botón "Suscribete"*/
 
     /*footer del footer TODO:*/
