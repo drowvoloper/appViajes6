@@ -17,9 +17,15 @@ a,a:hover { text-decoration: none;}
 .italic { font-style: italic;}
 
     /*para títulos en mayúscula:*/
-.uppercase {text-transform: uppercase;}
+.uppercase { text-transform: uppercase;}
 
 /*/////Sección CABECERA y Navbar/////*/
+    /*Color del navbar*/
+.navbar-dark, .bg-dark { background-color:#151837 !important;}
+
+@media only screen and (min-width: 992px) {
+    .navbar-dark,.bg-dark { background-color:transparent !important;}
+}
 
     /*Imagen de la cabecera*/
 .imagen-cabecera{
@@ -27,44 +33,90 @@ a,a:hover { text-decoration: none;}
     background: url('../img/header.jpg')  center center no-repeat;
     background-size: cover;
 }
+
+
+@media only screen and (max-width: 992px) {
+    .imagen-cabecera { background: none;}
+}
     /*FIN Imagen de la cabecera*/
 
     /*Logo*/
-.logo{ text-align:center;}
+.logo{ 
+    text-align:center;
+    margin-left:25px;
+}
 
 .iconoweb {
     width: 150px;
     height: auto;
-    margin-top:10px;
+}
+
+@media only screen and (max-width: 992px) {
+    .logo { color:white;}
+    h5 { font-size: 16px;}
+    .iconoweb { width:100px;}
+    .icono1 { display: none;}
+}
+
+@media only screen and (min-width: 992px) {
+    .logo { color:black !important;}
+    .icono2 {display: none;}
 }
     /*FIN Logo*/
 
-    /*Menú cabecera*/
-.menu-cabecera {
-    text-align:left;
-    margin-top:20px;
+    /*Botón Toggler para versión mobile*/
+.navbar-toggler { 
+    background-color:grey;
+    margin-right:20px;
 }
 
-.menu-cabecera>a:hover{ 
-    color:white;
-    font-style:normal;
+    /*Menú cabecera*/
+.menu-cabecera { padding-top: 5px;}
+
+.menu-cabecera>ul>li { list-style: none;}
+
+
+@media only screen and (min-width: 992px) {
+    .menu-cabecera { 
+        margin-left:7%;
+        font-style: italic;
+    }
+    .menu-cabecera>ul>li { float:left;}
 }
+
+@media only screen and (max-width: 992px) {
+    .menu-cabecera { font-size:25px;}
+    .menu-cabecera>ul>li { text-align:center;}
+}
+
+.menu-cabecera>a:hover{ color:white;}
     /*FIN Menú cabecera*/
 
     /*Redes sociales*/
 .redes { 
     text-align:right;
-    margin-top:20px;
+}
+
+@media only screen and (max-width: 992px) {
+    .redes { display: none;}
 }
 
 .rrss {
     width:40px;
-    padding:3px;
+    padding:2px;
 }
     /*FIN Redes sociales*/
 
     /*Viaja y descubre*/
-.viaja { padding-left:30px;}
+.viaja { 
+    padding-left:30px;
+    margin-top:120px;
+}
+
+
+@media only screen and (max-width: 992px) {
+    
+}
 
 h1>span{ font-size:50px;}
     /*FIN Viaja y descubre*/
@@ -83,7 +135,18 @@ h1>span{ font-size:50px;}
 }
 
 .boton-destinos>h3{ padding-top:2px;}
+
+@media only screen and (max-width: 992px) {
+    .boton-destinos,.descubre { display: none;}
+}
     /*FIN Botón descubre*/
+
+    /*Slider (solamente visible en mobile)*/
+@media only screen and (min-width: 992px) {
+        #myCarousel { display: none;}
+}
+    /*FIN Slider (solamente visible en mobile)*/
+
 /*/////FIN Sección CABECERA y Navbar/////*/
 
 /*/////Sección Ofertas de Viajes/////*/
@@ -110,12 +173,12 @@ h1>span{ font-size:50px;}
 	background-repeat:no-repeat;
 }
 
-#pekin { background-image:url("https://raw.githubusercontent.com/GeeksHubsAcademy/Actividad_1/master/img/beijing.JPG");}
-#baires { background-image:url("https://raw.githubusercontent.com/GeeksHubsAcademy/Actividad_1/master/img/buenos_aires.JPG");}
-#mexico { background-image:url("https://raw.githubusercontent.com/GeeksHubsAcademy/Actividad_1/master/img/ciudad_mexico.JPG");}
-#madrid { background-image:url("https://raw.githubusercontent.com/GeeksHubsAcademy/Actividad_1/master/img/madrid.JPG");}
-#ny { background-image:url("https://raw.githubusercontent.com/GeeksHubsAcademy/Actividad_1/master/img/new_york.JPG");}
-#tokyo { background-image:url("https://raw.githubusercontent.com/GeeksHubsAcademy/Actividad_1/master/img/tokyo.JPG");}
+#pekin { background-image:url("../img/beijing.JPG");}
+#baires { background-image:url("../img/buenos_aires.JPG");}
+#mexico { background-image:url("../img/ciudad_mexico.JPG");}
+#madrid { background-image:url("../img/madrid.JPG");}
+#ny { background-image:url("../img/new_york.JPG");}
+#tokyo { background-image:url("../img/tokyo.JPG");}
 /*FIN imágenes de los lugares*/
 
 /*Save --$ pay only*/
